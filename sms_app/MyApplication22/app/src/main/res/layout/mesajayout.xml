@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#945678"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/idMsjIcerik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/idTxtIsim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kişi ismi"/>
+    <TextView
+        android:id="@+id/idTxtTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telefon numarası"/>
+    <Button
+        android:id="@+id/idBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönder"/>
+
+</LinearLayout>

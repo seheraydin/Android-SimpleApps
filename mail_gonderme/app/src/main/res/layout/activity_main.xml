@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/idTxtMailAdres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail Gönderilecek Hesabı Girin"/>
+    <EditText
+        android:id="@+id/idTxtMailKonusu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail Konusunu Girin Girin"/>
+    <EditText
+        android:id="@+id/idTxtMailIerik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail İçeriğini Girin"/>
+    <Button
+        android:id="@+id/idBtnMailAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gönder"/>
+
+</LinearLayout>
